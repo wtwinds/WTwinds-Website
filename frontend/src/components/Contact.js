@@ -19,8 +19,20 @@ export default function Contact() {
                     </a>
                 </h5>
 
-                <p className="mt-3 text-muted">
+                {/* click wali line yahan */}
+                <p className="mt-2 text-muted">
                     Click on the email address to send us your query directly.
+                </p>
+
+                <hr className="my-4" />
+
+                <h5>
+                    <i className="bi bi-geo-alt-fill"></i> Office Address
+                </h5>
+                <p className="mb-0">
+                    <strong>WT Winds Consultancy OPC Pvt. Ltd.</strong><br />
+                    Sector 22A, Udyog Vihar,<br />
+                    Gurgaon, Haryana – 122015
                 </p>
             </div>
         </div>

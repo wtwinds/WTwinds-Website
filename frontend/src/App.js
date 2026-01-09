@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import RefundPolicy from "./components/RefundPolicy";
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/refund-policy" element={<RefundPolicy />} />
       </Routes>
-
     </BrowserRouter>
   );
 }
