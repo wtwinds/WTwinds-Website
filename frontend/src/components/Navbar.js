@@ -15,13 +15,6 @@ export default function Navbar() {
             </Link>
           </li>
 
-          {/* NEW */}
-          <li className="nav-item">
-            <Link className="nav-link link-light" to="/products">
-              <i className="bi bi-box-seam"></i> Our Products
-            </Link>
-          </li>
-
           <li className="nav-item">
             <Link className="nav-link link-light" to="/contact">
               <i className="bi bi-envelope"></i> Contact
@@ -37,6 +30,12 @@ export default function Navbar() {
           <li className="nav-item">
             <Link className="nav-link link-light" to="/refund-policy">
               Refund Policy
+            </Link>
+          </li>
+          
+          <li className="nav-item">
+            <Link className="nav-link link-light" to="/products">
+              <i className="bi bi-box-seam"></i> Our Products
             </Link>
           </li>
         </ul>

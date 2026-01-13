@@ -4,8 +4,9 @@ export default function Products() {
       <h2 className="fw-bold text-center mb-4">Our Products</h2>
 
       <div className="row justify-content-center">
-        {/* Product Card */}
         <div className="col-md-8">
+
+          {/* ===== Tambola Product ===== */}
           <div className="card shadow-sm mb-4">
             <div className="card-body">
               <h4 className="card-title fw-bold">
@@ -38,7 +39,58 @@ export default function Products() {
 
               <div className="mt-3">
                 <a
-                  href="https://tambola-isba.onrender.com/"
+                  href="https://tambola-wtwinds.onrender.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary me-2"
+                >
+                  View Live Product
+                </a>
+              </div>
+
+              <hr />
+
+              <p className="text-muted mb-0">
+                Developed by <strong>Isba Patel and Aryan Hiremath</strong> <br />
+                Reference ID: <strong>@40475838947539</strong>
+              </p>
+            </div>
+          </div>
+
+          {/* ===== Tic-Tac-Toe Product ===== */}
+          <div className="card shadow-sm mb-4">
+            <div className="card-body">
+              <h4 className="card-title fw-bold">
+                Real-Time Multiplayer Tic-Tac-Toe Game
+              </h4>
+
+              <p className="card-text mt-3">
+                This is a web-based Tic-Tac-Toe game built using
+                <strong> HTML, CSS, JavaScript</strong> for the frontend and
+                <strong> Python (Flask)</strong> for the backend.
+              </p>
+
+              <p className="card-text">
+                The platform supports both single-player and multiplayer modes,
+                delivering smooth turn-based gameplay with instant updates.
+              </p>
+
+              <ul>
+                <li>Play vs Computer mode</li>
+                <li>Host & Join multiplayer rooms</li>
+                <li>Turn-based real-time gameplay</li>
+                <li>Win, draw & move validation</li>
+              </ul>
+
+              <p className="card-text">
+                The application is deployed on <strong>Render</strong> as a
+                cloud-hosted web service, making it easily accessible for
+                online play and demos.
+              </p>
+
+              <div className="mt-3">
+                <a
+                  href="https://tictactoe-bw7q.onrender.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary me-2"
@@ -51,10 +103,11 @@ export default function Products() {
 
               <p className="text-muted mb-0">
                 Developed by <strong>Isba Patel</strong> <br />
-                Reference ID: <strong>@40475838947539</strong>
+                Reference ID: <strong>39486734678934</strong>
               </p>
             </div>
           </div>
+
         </div>
       </div>
     </div>
