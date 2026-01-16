@@ -7,7 +7,8 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import RefundPolicy from "./components/RefundPolicy";
-import Products from "./components/Products"; // ✅ ADD THIS
+import Products from "./components/Products";
+import Team from "./components/Team";   // ✅ Our Team
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/refund-policy" element={<RefundPolicy />} />
-        <Route path="/products" element={<Products />} /> {/* ✅ ADD THIS */}
+        <Route path="/products" element={<Products />} />
+        <Route path="/team" element={<Team />} />   {/* ✅ Our Team */}
       </Routes>
     </BrowserRouter>
   );
