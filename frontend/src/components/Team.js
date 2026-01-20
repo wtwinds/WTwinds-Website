@@ -45,7 +45,7 @@ const Team = () => {
 
                     <tr>
                         <td>Lalit Mahajan</td>
-                        <td>SDE I</td>
+                        <td>SDE II</td>
                         <td>
                             <a
                                 href="https://www.linkedin.com/in/lalit-mahajan-a83550252/"

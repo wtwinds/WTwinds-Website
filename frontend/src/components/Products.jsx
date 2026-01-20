@@ -108,6 +108,53 @@ export default function Products() {
             </div>
           </div>
 
+          {/* ===== Banking / Stock App Product ===== */}
+          <div className="card shadow-sm mb-4">
+            <div className="card-body">
+              <h4 className="card-title fw-bold">
+                Banking & Stock Management Web Application
+              </h4>
+
+              <p className="card-text mt-3">
+                This is a full-stack banking and stock management web
+                application that simulates real-world financial operations.
+                The platform enables users to manage accounts, send and
+                receive money, and track balances securely.
+              </p>
+
+              <ul>
+                <li>User account creation & authentication</li>
+                <li>Send & receive money between accounts</li>
+                <li>Transaction history tracking</li>
+                <li>Stock-style balance management</li>
+              </ul>
+
+              <p className="card-text">
+                The application is hosted on <strong>Render</strong> and
+                uses a database-driven backend to ensure reliable
+                and real-time financial transactions.
+              </p>
+
+              <div className="mt-3">
+                <a
+                  href="https://bank-stock-app.onrender.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary me-2"
+                >
+                  View Live Product
+                </a>
+              </div>
+
+              <hr />
+
+              <p className="text-muted mb-0">
+                Developed by <strong>Lalit Mahajan</strong> <br />
+                Reference ID: <strong>BSTK-APP-001</strong>
+              </p>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
