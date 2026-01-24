@@ -32,12 +32,18 @@ export default function Navbar() {
               Refund Policy
             </Link>
           </li>
-          
+
           <li className="nav-item">
             <Link className="nav-link link-light" to="/products">
               <i className="bi bi-box-seam"></i> Our Products
             </Link>
           </li>
+
+          <li>
+            <Link to="/team" className="nav-link">Our Team</Link>
+
+          </li>
+
         </ul>
       </div>
     </nav>
