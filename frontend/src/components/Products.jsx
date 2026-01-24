@@ -13,46 +13,38 @@ export default function Products() {
                 Real-Time Multiplayer Tambola Game
               </h4>
 
-              <p className="card-text mt-3">
-                This is a real-time multiplayer Tambola game built using
-                <strong> HTML, CSS, JavaScript</strong> for the frontend and
-                <strong> Python with WebSockets</strong> for the backend.
+              <p className="card-text mt-2">
+                A real-time multiplayer Tambola platform built using
+                <strong> HTML, CSS, JavaScript</strong> and
+                <strong> Python WebSockets</strong>.
               </p>
 
-              <p className="card-text">
-                The game allows multiple players to join a room, receive
-                unique Tambola tickets, and play together live with:
-              </p>
-
-              <ul>
+              <ul className="mb-3">
+                <li>Live multiplayer rooms</li>
+                <li>Auto ticket marking & claim validation</li>
                 <li>Host-controlled number draw</li>
-                <li>Auto ticket marking</li>
-                <li>Claim validation</li>
                 <li>Real-time leaderboard</li>
               </ul>
 
               <p className="card-text">
-                The entire system is deployed on <strong>Render</strong>, with
-                frontend and backend running as separate services and
-                communicating via secure WebSockets.
+                Fully deployed on <strong>Render</strong> with secure
+                WebSocket communication.
               </p>
 
-              <div className="mt-3">
-                <a
-                  href="https://tambola-wtwinds.onrender.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-primary me-2"
-                >
-                  View Live Product
-                </a>
-              </div>
+              <a
+                href="https://tambola-wtwinds.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
+                View Live Product
+              </a>
 
               <hr />
 
               <p className="text-muted mb-0">
-                Developed by <strong>Isba Patel and Aryan Hiremath</strong> <br />
-                Reference ID: <strong>@40475838947539</strong>
+                Developed by <strong>Isba Patel & Aryan Hiremath</strong><br />
+                Ref ID: <strong>@40475838947539</strong>
               </p>
             </div>
           </div>
@@ -61,96 +53,122 @@ export default function Products() {
           <div className="card shadow-sm mb-4">
             <div className="card-body">
               <h4 className="card-title fw-bold">
-                Real-Time Multiplayer Tic-Tac-Toe Game
+                Real-Time Multiplayer Tic-Tac-Toe
               </h4>
 
-              <p className="card-text mt-3">
-                This is a web-based Tic-Tac-Toe game built using
-                <strong> HTML, CSS, JavaScript</strong> for the frontend and
-                <strong> Python (Flask)</strong> for the backend.
+              <p className="card-text mt-2">
+                A web-based Tic-Tac-Toe game built using
+                <strong> HTML, CSS, JavaScript</strong> and
+                <strong> Python (Flask)</strong>.
               </p>
 
-              <p className="card-text">
-                The platform supports both single-player and multiplayer modes,
-                delivering smooth turn-based gameplay with instant updates.
-              </p>
-
-              <ul>
-                <li>Play vs Computer mode</li>
-                <li>Host & Join multiplayer rooms</li>
+              <ul className="mb-3">
+                <li>Single-player & multiplayer modes</li>
+                <li>Host & join live rooms</li>
                 <li>Turn-based real-time gameplay</li>
-                <li>Win, draw & move validation</li>
+                <li>Win & draw validation</li>
               </ul>
 
               <p className="card-text">
-                The application is deployed on <strong>Render</strong> as a
-                cloud-hosted web service, making it easily accessible for
-                online play and demos.
+                Hosted on <strong>Render</strong> for easy access and demos.
               </p>
 
-              <div className="mt-3">
-                <a
-                  href="https://tictactoe-bw7q.onrender.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-primary me-2"
-                >
-                  View Live Product
-                </a>
-              </div>
+              <a
+                href="https://tictactoe-bw7q.onrender.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
+                View Live Product
+              </a>
 
               <hr />
 
               <p className="text-muted mb-0">
-                Developed by <strong>Isba Patel</strong> <br />
-                Reference ID: <strong>39486734678934</strong>
+                Developed by <strong>Isba Patel</strong><br />
+                Ref ID: <strong>39486734678934</strong>
               </p>
             </div>
           </div>
 
-          {/* ===== Banking / Stock App Product ===== */}
+          {/* ===== Banking App Product ===== */}
           <div className="card shadow-sm mb-4">
             <div className="card-body">
               <h4 className="card-title fw-bold">
-                Banking & Stock Management Web Application
+                Banking & Stock Management App
               </h4>
 
-              <p className="card-text mt-3">
-                This is a full-stack banking and stock management web
-                application that simulates real-world financial operations.
-                The platform enables users to manage accounts, send and
-                receive money, and track balances securely.
+              <p className="card-text mt-2">
+                A full-stack banking simulation platform for managing
+                accounts and transactions.
               </p>
 
-              <ul>
-                <li>User account creation & authentication</li>
-                <li>Send & receive money between accounts</li>
+              <ul className="mb-3">
+                <li>User authentication & account management</li>
+                <li>Send & receive money</li>
                 <li>Transaction history tracking</li>
-                <li>Stock-style balance management</li>
+                <li>Database-driven backend</li>
               </ul>
 
               <p className="card-text">
-                The application is hosted on <strong>Render</strong> and
-                uses a database-driven backend to ensure reliable
-                and real-time financial transactions.
+                Deployed on <strong>Render</strong> with real-time updates.
               </p>
 
-              <div className="mt-3">
-                <a
-                  href="https://bank-stock-app.onrender.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn btn-primary me-2"
-                >
-                  View Live Product
-                </a>
-              </div>
+              <a
+                href="https://bank-stock-app.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
+                View Live Product
+              </a>
 
               <hr />
 
               <p className="text-muted mb-0">
-                Developed by <strong>Lalit Mahajan</strong> <br />
-                Reference ID: <strong>BSTK-APP-001</strong>
+                Developed by <strong>Lalit Mahajan</strong><br />
+                Ref ID: <strong>BSTK-APP-001</strong>
+              </p>
+            </div>
+          </div>
+
+          {/* ===== Flight Search Product (LAST) ===== */}
+          <div className="card shadow-sm mb-4">
+            <div className="card-body">
+              <h4 className="card-title fw-bold">
+                Flight Search Web Application
+              </h4>
+
+              <p className="card-text mt-2">
+                A modern flight search web app built using
+                <strong> React</strong> with a clean glassmorphism UI.
+              </p>
+
+              <ul className="mb-3">
+                <li>Search by flight number or route</li>
+                <li>Multiple results with auto-fade transitions</li>
+                <li>Pause-on-hover result cards</li>
+                <li>Responsive & user-friendly design</li>
+              </ul>
+
+              <p className="card-text">
+                Deployed as a static site on <strong>Render</strong>.
+              </p>
+
+              <a
+                href="https://flight-search-iua0.onrender.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
+                View Live Product
+              </a>
+
+              <hr />
+
+              <p className="text-muted mb-0">
+                Developed by <strong>Aryan Hiremath</strong><br />
+                Ref ID: <strong>FLIGHT-SEARCH-01</strong>
               </p>
             </div>
           </div>
