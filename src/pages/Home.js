@@ -137,6 +137,29 @@ export default function Home() {
                 </div>
 
             </div>
+                          {/* InShot App */}
+<div className="card shadow-sm mb-4">
+  <div className="card-body">
+    <h4 className="fw-bold">InShot</h4>
+
+    <a
+      href="https://inshots.onrender.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn btn-primary"
+    >
+      View Live Product
+    </a>
+
+    <hr />
+    <p className="text-muted mb-0">
+      Developed by <strong>Lalit Mahajan</strong>
+      <br />
+      Managed by <strong>Vedanti Ingle</strong>
+    </p>
+  </div>
+</div>
+
           </div>
         </div>
       </div>
