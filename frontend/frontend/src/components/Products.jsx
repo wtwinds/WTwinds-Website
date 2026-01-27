@@ -44,6 +44,7 @@ export default function Products() {
 
               <p className="text-muted mb-0">
                 Developed by <strong>Isba Patel & Aryan Hiremath</strong><br />
+                Ref ID: <strong>@40475838947539</strong>
               </p>
             </div>
           </div>
@@ -85,7 +86,7 @@ export default function Products() {
 
               <p className="text-muted mb-0">
                 Developed by <strong>Isba Patel</strong><br />
-                Managed by <strong>Rudra Deshpande</strong>
+                Ref ID: <strong>39486734678934</strong>
               </p>
             </div>
           </div>
@@ -126,7 +127,7 @@ export default function Products() {
 
               <p className="text-muted mb-0">
                 Developed by <strong>Lalit Mahajan</strong><br />
-                Managed by <strong>Hetavi Shah & Mudit Verma</strong>
+                Ref ID: <strong>BSTK-APP-001</strong>
               </p>
             </div>
           </div>
@@ -155,7 +156,7 @@ export default function Products() {
               </p>
 
               <a
-                href="https://flight-search-wt.onrender.com/"
+                href="https://flight-search-iua0.onrender.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-primary"
@@ -166,52 +167,11 @@ export default function Products() {
               <hr />
 
               <p className="text-muted mb-0">
-                Developed by <strong>Aryan Hiremath & Isba Patel</strong><br />
-                Managed by <strong>Abhishek Gupta & Hetavi Shah & Mansi Patil</strong>
+                Developed by <strong>Aryan Hiremath</strong><br />
+                Ref ID: <strong>FLIGHT-SEARCH-01</strong>
               </p>
             </div>
           </div>
-          <div className="card shadow-sm mb-4">
-          <div className="card-body">
-            <h4 className="card-title fw-bold">
-              Real-Time Weather Forecast Application
-            </h4>
-
-            <p className="card-text mt-2">
-              A modern weather application built using
-              <strong> Flutter</strong> with
-              <strong> BLoC state management</strong> and
-              <strong> OpenWeather API</strong>.
-            </p>
-
-            <ul className="mb-3">
-              <li>Real-time weather updates</li>
-              <li>Search weather by city name</li>
-              <li>Temperature, humidity & wind details</li>
-              <li>Clean UI with responsive design</li>
-              <li>Error handling for invalid locations</li>
-            </ul>
-
-            <p className="card-text">
-              Uses <strong>REST APIs</strong> and follows
-              <strong> clean architecture principles</strong>.
-            </p>
-
-            <a href="https://drive.google.com/file/d/1qAfFLN9a7tPl9JE8rj4ccfRGxGNf2oEC/view?usp=drive_link"
-              target = "_blank"
-              rel = "noopener noreferrer"
-              className="btn btn-primary"                    
-            >
-            View Live Product
-            </a>
-            <hr />
-
-            <p className="text-muted mb-0">
-              Developed by <strong>Isba Patel</strong><br />
-              Managed by <strong>Gunjan Deore & Hetavi Shah & Devyani Mahajan</strong>
-            </p>
-          </div>
-        </div>
 
         </div>
       </div>
