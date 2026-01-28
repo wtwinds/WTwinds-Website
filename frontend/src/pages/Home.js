@@ -19,11 +19,7 @@ export default function Home() {
               <div className="card-body">
                 <h4 className="fw-bold">WTWinds App</h4>
 
-                <p className="text-muted">
-                  A modern web application with a clean and intuitive UI,
-                  featuring secure login and authentication for enrolling
-                  in WTWinds formal internship programs.
-                </p>
+                
 
                 <a
                   href="https://drive.google.com/file/d/10sajk4OdQekv3Vo2h9x6XtJSgynSDY1q/view?usp=drivesdk"
