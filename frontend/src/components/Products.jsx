@@ -6,6 +6,51 @@ export default function Products() {
       <div className="row justify-content-center">
         <div className="col-md-8">
 
+          {/* ===== WTWinds App (TOP PRODUCT) ===== */}
+          <div className="card shadow-sm mb-4">
+            <div className="card-body">
+              <h4 className="card-title fw-bold">
+                WTWinds App
+              </h4>
+
+              <p className="card-text mt-2">
+                A modern web application with a
+                <strong> clean and intuitive UI</strong>, designed to provide
+                seamless access to <strong>WTWinds formal programs</strong>.
+                The platform includes secure authentication and smooth user
+                flows for enrollment and user management.
+              </p>
+
+              <ul className="mb-3">
+                <li>Elegant and responsive user interface</li>
+                <li>Secure login & authentication system</li>
+                <li>User enrollment for WTWinds formal programs</li>
+                <li>Optimized user experience with smooth navigation</li>
+              </ul>
+
+              <p className="card-text">
+                Built with scalability and performance in mind,
+                ensuring a reliable experience for all users.
+              </p>
+
+              <a
+                href="https://drive.google.com/file/d/10sajk4OdQekv3Vo2h9x6XtJSgynSDY1q/view?usp=drivesdk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
+                View Live Product
+              </a>
+
+              <hr />
+
+              <p className="text-muted mb-0">
+                Developed by <strong>Isba Patel and Aryan Hiremath</strong><br />
+                Managed by <strong>Soumya Darshini Kar</strong>
+              </p>
+            </div>
+          </div>
+
           {/* ===== Tambola Product ===== */}
           <div className="card shadow-sm mb-4">
             <div className="card-body">
@@ -43,7 +88,7 @@ export default function Products() {
               <hr />
 
               <p className="text-muted mb-0">
-                Developed by <strong>Isba Patel & Aryan Hiremath</strong><br />
+                Developed by <strong>Isba Patel & Aryan Hiremath</strong>
               </p>
             </div>
           </div>
@@ -171,47 +216,6 @@ export default function Products() {
               </p>
             </div>
           </div>
-          <div className="card shadow-sm mb-4">
-          <div className="card-body">
-            <h4 className="card-title fw-bold">
-              Real-Time Weather Forecast Application
-            </h4>
-
-            <p className="card-text mt-2">
-              A modern weather application built using
-              <strong> Flutter</strong> with
-              <strong> BLoC state management</strong> and
-              <strong> OpenWeather API</strong>.
-            </p>
-
-            <ul className="mb-3">
-              <li>Real-time weather updates</li>
-              <li>Search weather by city name</li>
-              <li>Temperature, humidity & wind details</li>
-              <li>Clean UI with responsive design</li>
-              <li>Error handling for invalid locations</li>
-            </ul>
-
-            <p className="card-text">
-              Uses <strong>REST APIs</strong> and follows
-              <strong> clean architecture principles</strong>.
-            </p>
-
-            <a href="https://drive.google.com/file/d/1qAfFLN9a7tPl9JE8rj4ccfRGxGNf2oEC/view?usp=drive_link"
-              target = "_blank"
-              rel = "noopener noreferrer"
-              className="btn btn-primary"                    
-            >
-            View Live Product
-            </a>
-            <hr />
-
-            <p className="text-muted mb-0">
-              Developed by <strong>Isba Patel</strong><br />
-              Managed by <strong>Gunjan Deore & Hetavi Shah & Devyani Mahajan</strong>
-            </p>
-          </div>
-        </div>
 
         </div>
       </div>
