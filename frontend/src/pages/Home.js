@@ -26,7 +26,7 @@ export default function Home() {
                 </p>
 
                 <a
-                  href="#"
+                  href="https://drive.google.com/file/d/10sajk4OdQekv3Vo2h9x6XtJSgynSDY1q/view?usp=drivesdk"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary"
@@ -36,9 +36,9 @@ export default function Home() {
 
                 <hr />
                 <p className="text-muted mb-0">
-                  Developed by <strong>—</strong>
+                  Developed by <strong>Isba Patel and Aryan Hiremath</strong>
                   <br />
-                  Managed by <strong>—</strong>
+                  Managed by <strong>Soumya Darshini Kar</strong>
                 </p>
               </div>
             </div>
