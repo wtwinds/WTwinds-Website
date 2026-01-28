@@ -99,7 +99,7 @@ export default function Home() {
                 <hr />
                 <p className="text-muted mb-0">
                   Developed by <strong>Lalit Mahajan</strong><br />
-                  Managed by <strong>Hetavi Shah</strong>
+                  Managed by <strong>Hetavi Shah & Mudit Verma</strong>
                 </p>
               </div>
             </div>
