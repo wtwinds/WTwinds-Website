@@ -5,18 +5,6 @@ export default function Home() {
       <div className="container text-center mt-5">
         <h1 className="fw-bold">WT Winds</h1>
         <p className="lead">Professional Internship Platform</p>
-
-        <div className="row mt-4 justify-content-center">
-          <div className="col-md-4">
-            <i className="bi bi-code-slash fs-1 text-primary"></i>
-            <h5 className="mt-2">Software Development</h5>
-          </div>
-
-          <div className="col-md-4">
-            <i className="bi bi-kanban fs-1 text-success"></i>
-            <h5 className="mt-2">Product Management</h5>
-          </div>
-        </div>
       </div>
 
       {/* ===== OUR PRODUCTS ===== */}
@@ -25,6 +13,35 @@ export default function Home() {
 
         <div className="row justify-content-center">
           <div className="col-md-8">
+
+            {/* ===== WTWinds App (TOP) ===== */}
+            <div className="card shadow-sm mb-4 border-primary">
+              <div className="card-body">
+                <h4 className="fw-bold">WTWinds App</h4>
+
+                <p className="text-muted">
+                  A modern web application with a clean and intuitive UI,
+                  featuring secure login and authentication for enrolling
+                  in WTWinds formal internship programs.
+                </p>
+
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                >
+                  View Live Product
+                </a>
+
+                <hr />
+                <p className="text-muted mb-0">
+                  Developed by <strong>—</strong>
+                  <br />
+                  Managed by <strong>—</strong>
+                </p>
+              </div>
+            </div>
 
             {/* Tambola */}
             <div className="card shadow-sm mb-4">
@@ -86,8 +103,7 @@ export default function Home() {
 
                 <hr />
                 <p className="text-muted mb-0">
-                  Developed by <strong>Lalit Mahajan</strong>
-                  <br></br>
+                  Developed by <strong>Lalit Mahajan</strong><br />
                   Managed by <strong>Hetavi Shah</strong>
                 </p>
               </div>
@@ -109,56 +125,55 @@ export default function Home() {
 
                 <hr />
                 <p className="text-muted mb-0">
-                  Developed by <strong>Aryan Hiremath</strong>
-                  <br></br>
+                  Developed by <strong>Aryan Hiremath</strong><br />
                   Managed by <strong>Gunjan</strong>
                 </p>
               </div>
             </div>
+
+            {/* Weatherly */}
             <div className="card shadow-sm mb-4">
-                <div className="card-body">
-                    <h4 className="fw-bold">
-                        WeaTherly 
-                    </h4>
+              <div className="card-body">
+                <h4 className="fw-bold">WeaTherly</h4>
 
-                    <a href="https://drive.google.com/file/d/1qAfFLN9a7tPl9JE8rj4ccfRGxGNf2oEC/view?usp=drive_link"
-                        target = "_blank"
-                        rel = "noopener noreferrer"
-                        className="btn btn-primary"                    
-                    >
-                        View Live Product
-                    </a>
-                    <hr />
-                    <p className="text-muted mb-0">
-                        Developed by <strong>Isba Patel</strong>
-                        <br></br>
-                        Managed by <strong>Gunjan Deore</strong>
-                    </p>
-                </div>
+                <a
+                  href="https://drive.google.com/file/d/1qAfFLN9a7tPl9JE8rj4ccfRGxGNf2oEC/view?usp=drive_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                >
+                  View Live Product
+                </a>
 
+                <hr />
+                <p className="text-muted mb-0">
+                  Developed by <strong>Isba Patel</strong><br />
+                  Managed by <strong>Gunjan Deore</strong>
+                </p>
+              </div>
             </div>
-                          {/* InShot App */}
-<div className="card shadow-sm mb-4">
-  <div className="card-body">
-    <h4 className="fw-bold">InShot</h4>
 
-    <a
-      href="https://inshots.onrender.com/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="btn btn-primary"
-    >
-      View Live Product
-    </a>
+            {/* InShot */}
+            <div className="card shadow-sm mb-4">
+              <div className="card-body">
+                <h4 className="fw-bold">InShot</h4>
 
-    <hr />
-    <p className="text-muted mb-0">
-      Developed by <strong>Lalit Mahajan</strong>
-      <br />
-      Managed by <strong>Vedanti Ingle</strong>
-    </p>
-  </div>
-</div>
+                <a
+                  href="https://inshots.onrender.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                >
+                  View Live Product
+                </a>
+
+                <hr />
+                <p className="text-muted mb-0">
+                  Developed by <strong>Lalit Mahajan</strong><br />
+                  Managed by <strong>Vedanti Ingle</strong>
+                </p>
+              </div>
+            </div>
 
           </div>
         </div>
