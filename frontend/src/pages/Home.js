@@ -56,7 +56,6 @@ export default function Home() {
                 <hr />
                 <p className="text-muted mb-0">
                   Developed by <strong>Isba Patel & Aryan Hiremath</strong><br />
-                  Managed by <strong>Abhishek & Mudit</strong>
                 </p>
               </div>
             </div>
@@ -111,7 +110,7 @@ export default function Home() {
                 <h4 className="fw-bold">Flight Search Web Application</h4>
 
                 <a
-                  href="https://flight-search-iua0.onrender.com"
+                  href="https://flight-search-wt.onrender.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-primary"
@@ -121,8 +120,8 @@ export default function Home() {
 
                 <hr />
                 <p className="text-muted mb-0">
-                  Developed by <strong>Aryan Hiremath</strong><br />
-                  Managed by <strong>Gunjan</strong>
+                  Developed by <strong>Aryan Hiremath & Isba Patel</strong><br />
+                  Managed by <strong>Abhishek Gupta & Mansi Patil & Hetavi Shah</strong>
                 </p>
               </div>
             </div>
@@ -144,11 +143,10 @@ export default function Home() {
                 <hr />
                 <p className="text-muted mb-0">
                   Developed by <strong>Isba Patel</strong><br />
-                  Managed by <strong>Gunjan Deore</strong>
+                  Managed by <strong>Gunjan Deore & Devyani Mali & Hetavi Shah</strong>
                 </p>
               </div>
             </div>
-<<<<<<< HEAD
 
             {/* InShot */}
             <div className="card shadow-sm mb-4">
@@ -171,30 +169,6 @@ export default function Home() {
                 </p>
               </div>
             </div>
-=======
-                          {/* InShot App */}
-<div className="card shadow-sm mb-4">
-  <div className="card-body">
-    <h4 className="fw-bold">InShot</h4>
-
-    <a
-      href="https://inshots.onrender.com/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="btn btn-primary"
-    >
-      View Live Product
-    </a>
-
-    <hr />
-    <p className="text-muted mb-0">
-      Developed by <strong>Lalit Mahajan</strong>
-      <br />
-      Managed by <strong>Vedanti Ingle</strong>
-    </p>
-  </div>
-</div>
->>>>>>> a9b46b395d68c602bb7ef035fa6ad1aaa3409bcc
 
           </div>
         </div>
