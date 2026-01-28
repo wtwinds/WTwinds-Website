@@ -148,6 +148,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
+<<<<<<< HEAD
 
             {/* InShot */}
             <div className="card shadow-sm mb-4">
@@ -170,6 +171,30 @@ export default function Home() {
                 </p>
               </div>
             </div>
+=======
+                          {/* InShot App */}
+<div className="card shadow-sm mb-4">
+  <div className="card-body">
+    <h4 className="fw-bold">InShot</h4>
+
+    <a
+      href="https://inshots.onrender.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn btn-primary"
+    >
+      View Live Product
+    </a>
+
+    <hr />
+    <p className="text-muted mb-0">
+      Developed by <strong>Lalit Mahajan</strong>
+      <br />
+      Managed by <strong>Vedanti Ingle</strong>
+    </p>
+  </div>
+</div>
+>>>>>>> a9b46b395d68c602bb7ef035fa6ad1aaa3409bcc
 
           </div>
         </div>
